@@ -1,0 +1,112 @@
+Package: Camera.PRO
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/CameraPro.deb
+Size: 17644
+MD5sum: 80cea057e95800462cdd755230de2465
+SHA1: 40ea446ce51078cbfb2bd20f1bbb0c406a568834
+SHA256: 33043936d28323d5cdc5b1f1c2f4fccf8a2b05f6d9af25285f25b2a48bab4d6d
+Description: Enable advanced camera functions.启用高级相机功能！
+Author: LF
+Dev: LF
+Name: CameraPRO
+ Section: Tweaks调整
+
+Package: LegacyPatcher
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/LegacyPatcher.deb
+Size: 95788
+MD5sum: f08d43313461743e5d7f860b48655a4d
+SHA1: 3d3a652f027538f45a7f296b85feed0c8d1997d2
+SHA256: f789ba8de187df23f133d2b27fb29a4c731d8aa4a9632bd977b33958f6b05227
+Section: Systems系统
+Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
+Author: LF
+Name: LegacyPatcher
+
+Package: PlumpyBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/PlumpyBar.deb
+Size: 70340
+MD5sum: b40aabb6829df8886da96f1856a6fcb2
+SHA1: 2e9bff2273515d8dc8fb1010f0e207f59c30fe4a
+SHA256: 35dfcbaccfab76458c190e94b02f299684f92d0c03d8c095511decec425f119e
+Section: Themes主题
+Description: Plumpy styles bar theme for callassist.由LF支持电话助手，修复了系统开关与电池的问题，请在电话助手内选择普通图标模式，此为无根越狱版本，RootHide用户请转插.Enjoy!
+Author: LF
+Name: PlumpyBar
+
+Package: a
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: null
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/DisCPULimited.deb
+Size: 43476
+MD5sum: 34ec2d78b8544ae5346f03f76e8459fb
+SHA1: 8031cfade7409a3b4eac36cc8cd766d1a84c45e5
+SHA256: 5870011beb31d341e1d301876cd400661511eb226f3c7542e2a842575f59a994
+Section: Systems系统
+Description: Dis temperature is limited to the CPU frequency.防止温度限制CPU频率。
+Author: null
+Name: DisCPU Limited
+
+Package: cydia
+Version: 1.1.37-3
+Architecture: iphoneos-arm64
+Maintainer: Genesis
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: debs/CydiaInstallerBeta.deb
+Size: 1233652
+MD5sum: 0fede3e29a8a268bb2394330d0d6a1b7
+SHA1: b571164fa280011f83f5e932d9e071471256b835
+SHA256: e998d2411ac399d5df8e466807f43db75c371b0cc236d54d58fe6705a8387b0a
+Section: Systems系统
+Priority: important
+Description: Cydia for iOS15+.idk.
+Author: Jay Freeman (saurik)
+Icon: http://cydia.saurik.com/icon@2x/cydia7.png
+Name: Cydia Installer [Experimental]
+
+Package: iOS26e
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: com.spark.snowboard
+Filename: debs/iOS26e.deb
+Size: 2223336
+MD5sum: 93574ce253ce800f96074ffdbb39dfbd
+SHA1: 72815fbc47098a690314512c33123255458076f1
+SHA256: 6102f01a39af4b4628d93d59e43f372a970af3a877357d772d0ff69a6e70375b
+Section: Themes主题
+Description: iOS26Experience.真的iOS26主题！名为iOS26e！这里的「e」指的是「experience」！已修复黑边，自带遮罩，请安装snowboard和遮罩扩展！喜欢的自行体验吧！Enjoy！
+Author: LF
+Name: iOS26e
+
+Package: lottiestatusbar
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
+Filename: debs/LottieBar.deb
+Size: 1013688
+MD5sum: 3a73c1f2907f60d4a51ab3e60b534f48
+SHA1: 7a77ad224ea5f1deac0a6714a5aee190cebd4a39
+SHA256: ed9640371ffc70508482ddede7bc5f0dadce9fb7f73906ece8ff309c439de85c
+Section: Themes主题
+Description: The best free status bar tweak of the year.年度最佳免费状态栏插件！需要转插！LF汉化！已经尽力汉化了！如果显示找不到依赖，请添加国外依赖源repo.cypwn.xyz！
+Author: MiRO
+Name: LottieBar
+
