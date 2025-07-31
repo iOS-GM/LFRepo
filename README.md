@@ -1,3 +1,9 @@
-# LFRepo
-这是一个测试的软件源
-该软件源由两个用户共同创建并且共同管理
+# LFRepo -- iOS Jailbreak Repo
+## Supports
+- RootlessJB
+- iOS15 ~ 16
+
+## What Tweaks are in it?
+- Themes
+- Tweaks
+- Systems...
