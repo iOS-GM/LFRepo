@@ -95,6 +95,22 @@ Description: iOS26Experience.真的iOS26主题！名为iOS26e！这里的「e」
 Author: LF
 Name: iOS26e
 
+Package: ios26edark
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/ios26edark.deb
+Size: 51333596
+MD5sum: 14fa4baccb704eb3bc8e5242f2af78ec
+SHA1: 43cbfeaba6b116d6d2d60d7ab54bef47bb75fc8c
+SHA256: 288759f30fb90ca7a0bbb3233597e4b28815f7311516b905c8c1acd5f64042ef
+Section: Themes主题
+Description: iOS26e theme dark version.iOS26e主题深色版本，复刻自Rifai，较为完善的一个版本，可以日用！自带AppIconMask，十分好看！Enjoy！٩(๑^o^๑)۶
+Author: Rifai
+Name: iOS26eDark
+Sponsor: LF
+
 Package: lottiestatusbar
 Version: 1.0.8
 Architecture: iphoneos-arm64
