@@ -2,7 +2,7 @@ Package: Camera.PRO
 Version: 1.0.0
 Architecture: iphoneos-arm64
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: debs/CameraPro.deb
+Filename: ./debs/CameraPro.deb
 Size: 17644
 MD5sum: 80cea057e95800462cdd755230de2465
 SHA1: 40ea446ce51078cbfb2bd20f1bbb0c406a568834
@@ -18,7 +18,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/LegacyPatcher.deb
+Filename: ./debs/LegacyPatcher.deb
 Size: 95788
 MD5sum: f08d43313461743e5d7f860b48655a4d
 SHA1: 3d3a652f027538f45a7f296b85feed0c8d1997d2
@@ -33,7 +33,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/PlumpyBar.deb
+Filename: ./debs/PlumpyBar.deb
 Size: 70340
 MD5sum: b40aabb6829df8886da96f1856a6fcb2
 SHA1: 2e9bff2273515d8dc8fb1010f0e207f59c30fe4a
@@ -49,7 +49,7 @@ Architecture: iphoneos-arm64
 Maintainer: null
 Installed-Size: 236
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/DisCPULimited.deb
+Filename: ./debs/DisCPULimited.deb
 Size: 43476
 MD5sum: 34ec2d78b8544ae5346f03f76e8459fb
 SHA1: 8031cfade7409a3b4eac36cc8cd766d1a84c45e5
@@ -68,7 +68,7 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: debs/CydiaInstallerBeta.deb
+Filename: ./debs/CydiaInstallerBeta.deb
 Size: 1233652
 MD5sum: 0fede3e29a8a268bb2394330d0d6a1b7
 SHA1: b571164fa280011f83f5e932d9e071471256b835
@@ -85,7 +85,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: debs/iOS26e.deb
+Filename: ./debs/iOS26e.deb
 Size: 2223336
 MD5sum: 93574ce253ce800f96074ffdbb39dfbd
 SHA1: 72815fbc47098a690314512c33123255458076f1
@@ -100,7 +100,7 @@ Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard, com.spark.snowboard.ui
-Filename: debs/ios26edark.deb
+Filename: ./debs/ios26edark.deb
 Size: 51333596
 MD5sum: 14fa4baccb704eb3bc8e5242f2af78ec
 SHA1: 43cbfeaba6b116d6d2d60d7ab54bef47bb75fc8c
@@ -116,7 +116,7 @@ Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
-Filename: debs/LottieBar.deb
+Filename: ./debs/LottieBar.deb
 Size: 1013688
 MD5sum: 3a73c1f2907f60d4a51ab3e60b534f48
 SHA1: 7a77ad224ea5f1deac0a6714a5aee190cebd4a39
