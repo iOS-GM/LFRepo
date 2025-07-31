@@ -100,7 +100,7 @@ Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard, com.spark.snowboard.ui
-Filename: debs/ios26edark.deb
+Filename: https://github.com/iOS-GM/LFRepo/releases/download/ios26e/ios26edark.deb
 Size: 51333596
 MD5sum: 14fa4baccb704eb3bc8e5242f2af78ec
 SHA1: 43cbfeaba6b116d6d2d60d7ab54bef47bb75fc8c
