@@ -13,6 +13,22 @@ Dev: LF
 Name: CameraPRO
  Section: Tweaks调整
 
+Package: DYFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: ./debs/DYFont.deb
+Size: 8768764
+MD5sum: a1dfd124de965841db168aeb84345cc3
+SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
+SHA256: 23f12acd2f2048b84d80d63c871ce984856e370111c37b152f63659834624b5e
+Section: Themes主题
+Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴胺里挂载/System/Library/Fonts然后安装此插件，最后重启设备即可生效！Support by LF！Enjoy！
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: DYFonts(挂载版)
+
 Package: LegacyPatcher
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -42,6 +58,21 @@ Section: Themes主题
 Description: Plumpy styles bar theme for callassist.由LF支持电话助手，修复了系统开关与电池的问题，请在电话助手内选择普通图标模式，此为无根越狱版本，RootHide用户请转插.Enjoy!
 Author: LF
 Name: PlumpyBar
+
+Package: WatermelonBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/WatermelonBar.deb
+Size: 286804
+MD5sum: d228b30a80314b19ccc4ef47a28df5a3
+SHA1: 78488308791bfa7a6c3b781019b8471afe328b64
+SHA256: 9fb951f37892e501b0c6704e789d1e9c56f42ecc23bdbe519fb9f61a7a0ab9c7
+Section: Themes主题
+Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
+Author: LF
+Name: WatermelonBar
 
 Package: a
 Version: 1.0.0
