@@ -8,3 +8,4 @@ Components: main
 Description: LFRepo
 Icon: https://ios-gm.github.io/LFRepo/CydiaIcon.png
 SileoIcon: https://ios-gm.github.io/LFRepo/RepoIcon.png
+Suite: stable
