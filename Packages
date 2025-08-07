@@ -11,7 +11,7 @@ Description: Enable advanced camera functions.启用高级相机功能！
 Author: LF
 Dev: LF
 Name: CameraPRO
- Section: Tweaks调整
+Section: Tweaks调整
 
 Package: DYFonts
 Version: 1.0
@@ -100,7 +100,7 @@ Size: 9356
 MD5sum: edf3c953c2c4b2917b745f08c866ce33
 SHA1: f4d079ddf6d524826411d0c68e6590e3e4d907a3
 SHA256: 44feb7bd177bf753f09a2b11eb65a494150d5bd0ecac9a21ac49a2b2ceddc4f4
-Section: System系统
+Section: Systems系统
 Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
 Author: LF
 Name: A1
