@@ -105,6 +105,22 @@ Description: Adjust your Jetsam and kernel parameters to give you the best backg
 Author: LF
 Name: A1
 
+Package: com.Dopamine.themes
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.Dopamine.themes_1.0_iphoneos-arm64 (1).deb
+Size: 2128
+MD5sum: c63ad24134f4b2ffd4a1fe267100b078
+SHA1: 77a23aca8b6e617ac031d922b6ba81355f9134d4
+SHA256: 0430dcc5b990854ca4b606caf967f4e3a85d2ae5633ed7d283b06f49be5cf330
+Section: Themes主题
+Description: Expand your dopamine theme.扩展你的多巴胺主题。
+Author: LF
+Icon: https://dopamine.dhinak.net/assets/icon.png
+Name: DopamineThemesExtended-多巴胺主题扩展
+
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
