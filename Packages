@@ -1,3 +1,26 @@
+Package: 1688SHFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: ./debs/1688SHFonts_1.0_iphoneos-arm64.deb
+Size: 5805248
+MD5sum: ec5457e59f7f2bd30938f222ad0a0474
+SHA1: bbbad486a56804195a0d50b9cd84222e744d550b
+SHA256: 9c291c41a3b990bbaea3c15a468675a0bb95b92b91c6d5afd646294f25cb9f6d
+Section: Themes (主题)
+Description: 阿里巴巴官方数黑体，支持真皮挂载的完美字体！
+  - 使用说明：
+    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
+    2. 安装本插件
+    3. 重启设备即可生效
+  - 注意事项：
+    - 仅支持 iOS 15.0 及以上系统
+    - 需要完整的越狱环境
+Author: 1688
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: 阿里巴巴数黑体85 (挂载版)
+
 Package: Camera.PRO
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -91,18 +114,35 @@ Author: null
 Name: DisCPU Limited
 
 Package: a1
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: LF
-Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/a1_1.2.deb
-Size: 9356
-MD5sum: edf3c953c2c4b2917b745f08c866ce33
-SHA1: f4d079ddf6d524826411d0c68e6590e3e4d907a3
-SHA256: 44feb7bd177bf753f09a2b11eb65a494150d5bd0ecac9a21ac49a2b2ceddc4f4
-Section: System系统
-Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
+Filename: ./debs/a1_1.3 (1).deb
+Size: 10252
+MD5sum: 9b2dc1f2a201d3e4f53d8721eb675787
+SHA1: 775688c153de8f575eaac8bf8b2e356dba95dfbe
+SHA256: 5ccb29b09ee9fe9e3f199de97a990f4be996da9fea6d0caaf0b20a037517a30b
+Section: System (系统)
+Description: Adjust Jetsam and kernel parameters to optimize background task performance.
+  优化 Jetsam 和内核参数以提升后台任务性能。
+  - Lowers priority of useless processes to improve system fluidity.
+    降低无用进程优先级，提高系统流畅性。
+  - Extends compatibility with more apps in this verison.
+    此版本扩展了更多应用的兼容性。
+  - Fixes path errors (grep/awk/sysctl issues).
+    修复路径错误（grep/awk/sysctl 问题）。
+  - Adds postrm script for cleanup.
+    新增卸载清理脚本（postrm）。
+  - Prevents log accumulation.
+    防止日志堆积。
+1.3:
+  - Added postrm script | 新增卸载清理脚本
+  - Fixed path errors (grep/awk/sysctl) | 修复路径错误（grep/awk/sysctl）
+  - Extended app compatibility list | 扩展应用兼容列表
+  - Added log rotation to prevent accumulation | 新增日志轮转防止堆积
 Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 
 Package: com.Dopamine.themes
